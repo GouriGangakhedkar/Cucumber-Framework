@@ -45,6 +45,7 @@ public class LoginPage {
     
 	public void login(String userid, String pwd)
 	{
+		System.out.println("Login Started");
 		ca.enterValue(tb_username, userid, userid + "has been enterd into username field");
 		ca.enterValue(tb_password, pwd, "password has been entered into pwd field");
 		ca.clickElement(btn_login, "login button clicked");
